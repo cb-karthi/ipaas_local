@@ -78,7 +78,7 @@
       }
     },
    "retry":{
-      "id":"credentials",
+      "id":"credentials1",
       "display" : "Connect",
       "icon" : "ARROW",
       "buttonLook":"FILLED",
