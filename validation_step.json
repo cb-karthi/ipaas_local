@@ -20,8 +20,8 @@
       }
    ],
    "proceed":{
-      "id":"credentials",
-      "display" : "Connect",
+      "id":"proceed",
+      "display" : "Proceed",
       "icon" : "ARROW",
       "buttonLook":"FILLED",
       "type" : "DIRECT_LINK",
@@ -38,8 +38,8 @@
       }
     },
     "retry":{
-      "id":"credentials1",
-      "display" : "Connect",
+      "id":"retry",
+      "display" : "Retry Data Validation",
       "icon" : "ARROW",
       "buttonLook":"FILLED",
       "type" : "DIRECT_LINK",
