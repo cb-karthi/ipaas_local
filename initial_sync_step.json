@@ -12,7 +12,7 @@
                   "icon" : "ARROW",
                   "type" : "DIRECT_LINK",
                   "request":{
-                     "type":"ON_CLICK",
+                     "type":"ON_CLICK_GET_CARD",
                      "apiEndPoint":{
                         "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
                         "type":"GET"
