@@ -11,7 +11,7 @@
                "Subscription exists for all customers in Chargebee"
             ],
             "request" : {
-               "type":"DOC_READY",
+               "type":"DOC_READY_GET_CARD",
                "apiEndPoint":{
                   "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/updated_card.json",
                   "type":"GET"
