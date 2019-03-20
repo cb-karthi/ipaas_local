@@ -10,7 +10,7 @@
                   "id":"direct",
                   "display" : "Run Initial Sync",
                   "icon" : "ARROW",
-                  "type" : "DIRECT_LINK",
+                  "type" : "DIRECT_LINK_GET_CARD",
                   "request":{
                      "type":"ON_CLICK_GET_CARD",
                      "apiEndPoint":{
