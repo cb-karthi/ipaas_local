@@ -5,6 +5,7 @@
             "type" : "PROCESSING",
             "processingText": "Syncing first 10 customers and their subscriptions",
             "request" : {
+               "type":"DOC_READY",
                "apiEndPoint":{
                   "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_result.json",
                   "type":"GET"
