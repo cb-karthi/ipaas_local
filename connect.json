@@ -5,7 +5,7 @@
     ],
     "docUrl":"",
     "signupUrl":"",
-    "button":{
+    "connect":{
 	"id":"credentials",
 	"display" : "Connect",
 	"icon" : "ARROW",
