@@ -25,7 +25,7 @@
             "type":"GET",
             "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/mapping_step.json"
          },
-         "editConfigs":{
+         "editConfig":{
             "title":"Manage how Chargebee syncs data with ActiveCampaign",
             "apiEndPoint": {
                "type":"GET",
