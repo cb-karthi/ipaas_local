@@ -16,6 +16,31 @@
                      }
 	  	}
 	},
+	"editConfigs":[
+		{
+			"title":"Manage how Chargebee syncs data with ActiveCampaign",
+			"editConf":{
+			      "id":"edit_mapping",
+			      "display" : "Manage sync rules",
+			      "buttonLook":"EMPTY",
+			      "type" : "DIRECT_LINK",
+			      "request":{
+				 "type":"ON_CLICK_GET_EDIT_LAYOUT",
+				 "apiEndPoint":{
+				    "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/edit_mapping_step.json",
+				    "type":"GET",
+				    "headers":{
+				       "Authorization":"sfsfsdffadssd",
+				       "Elements-Formula-Instance-Id":"sfsfsdafsd"
+				    },
+				    "input":{
+				       "id":"chargebee"
+				    }
+				 }
+			      }
+			    }
+		}
+	]
 	"syncErrors":[
 		{
 			"card": {
