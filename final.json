@@ -23,7 +23,6 @@
 			"editConf":{
 			      "id":"edit_mapping",
 			      "display" : "Manage sync rules",
-			      "buttonLook":"MUTTED",
 			      "type" : "DIRECT_LINK",
 			      "request":{
 				 "type":"ON_CLICK_GET_EDIT_LAYOUT",
