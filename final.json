@@ -3,6 +3,7 @@
 	"unlink":{
 		"id":"unlink",
                 "display" : "Unlink Integration",
+		"buttonLook":"MUTTED",
                 "type" : "POP_UP",
                 "popUp":{
                      "type":"SIMPLE",
@@ -22,7 +23,7 @@
 			"editConf":{
 			      "id":"edit_mapping",
 			      "display" : "Manage sync rules",
-			      "buttonLook":"EMPTY",
+			      "buttonLook":"MUTTED",
 			      "type" : "DIRECT_LINK",
 			      "request":{
 				 "type":"ON_CLICK_GET_EDIT_LAYOUT",
