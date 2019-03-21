@@ -112,6 +112,7 @@
       "id":"save",
       "display" : "Save",
       "type" : "DIRECT_LINK",
+      "buttonLook":"FILLED",
       "request":{
          "type":"ON_CLICK_SEND_INPUT",
          "apiEndPoint":{
