@@ -46,13 +46,6 @@
 				 "link":"https://www.google.com"
 			 }
 		 ]
-	      },
-	      {  
-		 "dispName":"API Secret",
-		 "req":"true",
-		 "type":"CHECKBOX",
-		 "id":"checkbox2",
-		 "desc":"I agree to the Chargebee's terms and conditions"
 	      }
 	   ],
 	   "message":{
