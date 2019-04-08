@@ -29,7 +29,7 @@
 	      },
 	      {  
 		 "req":"true",
-		 "type":"CHECKBOXWithLink",
+		 "type":"CHECKBOXWITHLINK",
 		 "id":"checkbox1",
 		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's Terms of Service, Consent Policy, and Privacy Policy.",
 		 "links":[
