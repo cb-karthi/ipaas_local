@@ -31,7 +31,17 @@
 		 "req":"true",
 		 "type":"CHECKBOX",
 		 "id":"checkbox1",
-		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's Terms of Service, Consent Policy, and Privacy Policy."
+		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's Terms of Service, Consent Policy, and Privacy Policy.",
+		 "links":[
+			 {
+				 "text":"Terms of Service",
+				 "link":"https://www.google.com"
+			 },
+			 {
+				 "text":"Consent Policy",
+				 "link":"https://www.google.com"
+			 }
+		 ]
 	      },
 	      {  
 		 "dispName":"API Secret",
