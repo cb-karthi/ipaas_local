@@ -20,6 +20,7 @@
                {
                   "id":"confirmation",
                   "display" : "Ignore errors",
+                  "buttonLook":"MUTTED",
                   "icon" : "CLOSE",
                   "type" : "POP_UP",
                   "popUp":{
