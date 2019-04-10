@@ -65,7 +65,6 @@
 			      },
                {  
 			         "dispName":"Subscription fields",
-			         "req":"true",
 			         "type":"ACTIONDROPDOWN",
 			         "id":"dropdown3",
 			         "allowedValues":{
@@ -79,7 +78,6 @@
 			      },               
                {  
 			         "dispName":"Cubscription fields",
-			         "req":"true",
 			         "type":"ACTIONDROPDOWN",
 			         "id":"dropdown4",
 			         "allowedValues":{
@@ -90,7 +88,6 @@
 			      },               
                {  
 			         "dispName":"Custom field",
-			         "req":"true",
 			         "type":"ACTIONDROPDOWN",
 			         "id":"dropdown5",
 			         "allowedValues":{
