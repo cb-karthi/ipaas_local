@@ -16,8 +16,7 @@
 			      }
             ]
          },
-         "id" : "check2",
-        "isCardDone":"true"
+         "id" : "check2"
       },
 		{
          "card": {
@@ -37,8 +36,7 @@
 		      	}
             ]
          },
-         "id" : "check2",
-        "isCardDone":"true"
+         "id" : "check2"
       },
 		{
          "card": {
@@ -53,8 +51,7 @@
 			      }
             ]
          },
-         "id" : "check3",
-        "isCardDone":"true"
+         "id" : "check3"
       },
 		{
          "card": {
@@ -103,8 +100,7 @@
 			      }               
             ]
          },
-         "id" : "check4",
-        "isCardDone":"true"
+         "id" : "check4"
       }
     ],
    "proceed":{
