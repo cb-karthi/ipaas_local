@@ -29,23 +29,9 @@
 	      },
 	      {  
 		 "req":"true",
-		 "type":"CHECKBOXWITHLINK",
+		 "type":"CHECKBOX",
 		 "id":"checkbox1",
-		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's ",
-		 "links":[
-			 {
-				 "text":"Terms of Service",
-				 "link":"https://www.google.com"
-			 },
-			 {
-				 "text":"Consent Policy",
-				 "link":"https://www.google.com"
-			 },
-			 {
-				 "text":"Privacy Policy",
-				 "link":"https://www.google.com"
-			 }
-		 ]
+		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's <a href=\"\" target=\"blank\">Terms of Service</a>, <a href=\"\" target=\"blank\">Consent Policy</a> and <a href=\"\" target=\"blank\">Privacy Policy</a>."
 	      }
 	   ],
 	   "message":{
