@@ -39,8 +39,8 @@
 				       }
 				    
 			    }
-		    ]
-		    "buttons" :[
+		    ],
+		    "buttons":[
 		       {
 			  "id":"direct",
 			  "display" : "View Error CSV",
