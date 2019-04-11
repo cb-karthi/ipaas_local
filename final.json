@@ -19,25 +19,27 @@
 	},
 	"syncErrors":[
 		{
-			"card": {
-			    "type" : "ACTION",
-			    "heading" : "You've ignored errors found during data validation.",
-			    "icon" : "WARNING",
-			}
-		}
-	],
-	"overview":[
-		{
 		 "card": {
-		    "type" : "ACTION",
-		    "heading" : "4 of 10 records synced successfully",
-		    "listContent":[
-		       "Customer id CB-1234 is synced as AC-123 in Active Campaign",
-		       "Customer id CB-1234 is synced as AC-123 in Active Campaign",
-		       "Customer id CB-1234 is synced as AC-123 in Active Campaign",
-		       "Customer id CB-1234 is synced as AC-123 in Active Campaign"
-		    ],
-		    "icon" : "SUCCESS",
+		    "type" : "ACTION3",
+		    "heading" : "10 error(s) found",
+		    "listActionContent":[
+			    {
+				    "content":"Invoice in_DkmN3EYCnqoIbn - An internal error occurred",
+				    "buttons" :{
+					  "id":"ignore1",
+					  "display" : "Ignore Now",
+					  "type" : "DIRECT_LINK",
+					   "request":{
+						     "type":"ON_CLICK_GET_CARD",
+						     "apiEndPoint":{
+							"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
+							"type":"GET"
+						     }
+						  }
+				       }
+				    
+			    }
+		    ]
 		    "buttons" :[
 		       {
 			  "id":"direct",
@@ -65,7 +67,32 @@
 		       }
 		    ]
 		 },
-		 "id" : "check2",
+		 "id" : "overview",
+		 "isCardDone":"true"
+	      }
+	],
+	"overview":[
+		{
+		 "card": {
+		    "type" : "ACTION2",
+		    "heading" : "Last sync was done 50 minutes ago",
+		    "buttons" :[
+		       {
+			  "id":"direct",
+			  "display" : "Sync Now",
+			  "icon" : "AUTO_RENEW",
+			  "type" : "DIRECT_LINK",
+			   "request":{
+				     "type":"ON_CLICK_GET_CARD",
+				     "apiEndPoint":{
+					"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
+					"type":"GET"
+				     }
+				  }
+		       }
+		    ]
+		 },
+		 "id" : "overview",
 		 "isCardDone":"true"
 	      }
 	]
