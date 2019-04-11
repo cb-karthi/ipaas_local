@@ -25,7 +25,7 @@
 		    "listActionContent":[
 			    {
 				    "content":"Invoice in_DkmN3EYCnqoIbn - An internal error occurred",
-				    "buttons" :{
+				    "button" :{
 					  "id":"ignore1",
 					  "display" : "Ignore Now",
 					  "type" : "DIRECT_LINK",
