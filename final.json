@@ -97,8 +97,8 @@
 			    "message":"53 customers and subscriptions could not be synced to ActiveCampaign.",
 			    "button":{
 				"id":"direct",
-				  "display" : "Sync Now",
-				  "icon" : "AUTO_RENEW",
+				  "display" : "See all errors",
+				  "icon" : "ARROW",
 				  "type" : "DIRECT_LINK",
 				   "request":{
 					     "type":"ON_CLICK_GET_CARD",
