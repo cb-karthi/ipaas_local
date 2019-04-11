@@ -75,7 +75,9 @@
 		{
 		 "card": {
 		    "type" : "ACTION2",
-		    "heading" : "Last sync was done 50 minutes ago",
+		    "heading" : "Last sync done 20 minutes ago",
+		    "subHeading":"200 customers and subscriptions synced with ActiveCampaign ",
+		    "buttonLook":"EMPTY",
 		    "buttons" :[
 		       {
 			  "id":"direct",
@@ -90,7 +92,23 @@
 				     }
 				  }
 		       }
-		    ]
+		    ],
+		    "message":{
+			    "message":"53 customers and subscriptions could not be synced to ActiveCampaign."
+			    "button":{
+				"id":"direct",
+				  "display" : "Sync Now",
+				  "icon" : "AUTO_RENEW",
+				  "type" : "DIRECT_LINK",
+				   "request":{
+					     "type":"ON_CLICK_GET_CARD",
+					     "apiEndPoint":{
+						"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
+						"type":"GET"
+					     }
+					  }
+			    }
+		    }
 		 },
 		 "id" : "overview",
 		 "isCardDone":"true"
