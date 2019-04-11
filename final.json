@@ -27,7 +27,7 @@
 				    "content":"Invoice in_DkmN3EYCnqoIbn - An internal error occurred",
 				    "button" :{
 					  "id":"ignore1",
-					  "display" : "Ignore Now",
+					  "display" : "IGNORE ALL",
 					  "type" : "DIRECT_LINK",
 					   "request":{
 						     "type":"ON_CLICK_GET_CARD",
@@ -43,14 +43,14 @@
 		    "buttons":[
 		       {
 			  "id":"direct",
-			  "display" : "View Error CSV",
-			  "icon" : "ARROW",
+			  "display" : "Download CSV",
+			  "icon" : "CLOUD_DOWNLOAD",
 			  "type" : "DIRECT_LINK"
 		       },
 		       {
 			  "id":"confirmation",
 			  "display" : "Ignore errors",
-			  "buttonLook":"MUTTED",
+			  "buttonLook":"EMPTY",
 			  "icon" : "CLOSE",
 			  "type" : "POP_UP",
 			  "popUp":{
