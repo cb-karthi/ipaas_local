@@ -95,6 +95,8 @@
 		    ],
 		    "message":{
 			    "message":"53 customers and subscriptions could not be synced to ActiveCampaign.",
+			    "messageLook":"WARN",
+			    "icon":"WARNING",
 			    "button":{
 				"id":"direct",
 				  "display" : "See all errors",
