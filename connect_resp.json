@@ -1,4 +1,4 @@
 {
-  "dropdown1":"cannot be null",
+  "notice":"One or more mapping does not have a value.",
   "status":"error"
 }
