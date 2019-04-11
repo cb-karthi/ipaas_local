@@ -77,13 +77,13 @@
 		    "type" : "ACTION2",
 		    "heading" : "Last sync done 20 minutes ago",
 		    "subHeading":"200 customers and subscriptions synced with ActiveCampaign ",
-		    "buttonLook":"EMPTY",
 		    "buttons" :[
 		       {
 			  "id":"direct",
 			  "display" : "Sync now",
 			  "icon" : "AUTO_RENEW",
 			  "type" : "DIRECT_LINK",
+		          "buttonLook":"EMPTY",
 			   "request":{
 				     "type":"ON_CLICK_GET_CARD",
 				     "apiEndPoint":{
