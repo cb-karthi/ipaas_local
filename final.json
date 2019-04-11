@@ -94,7 +94,7 @@
 		       }
 		    ],
 		    "message":{
-			    "message":"53 customers and subscriptions could not be synced to ActiveCampaign."
+			    "message":"53 customers and subscriptions could not be synced to ActiveCampaign.",
 			    "button":{
 				"id":"direct",
 				  "display" : "Sync Now",
