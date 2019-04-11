@@ -42,7 +42,7 @@
 		    ],
 		    "buttons":[
 		       {
-			  "id":"direct",
+			  "id":"download",
 			  "display" : "Download CSV",
 			  "icon" : "CLOUD_DOWNLOAD",
 			  "type" : "DIRECT_LINK"
@@ -67,7 +67,7 @@
 		       }
 		    ]
 		 },
-		 "id" : "overview",
+		 "id" : "sync_errors",
 		 "isCardDone":"true"
 	      }
 	],
@@ -79,7 +79,7 @@
 		    "subHeading":"200 customers and subscriptions synced with ActiveCampaign ",
 		    "buttons" :[
 		       {
-			  "id":"direct",
+			  "id":"sync",
 			  "display" : "Sync now",
 			  "icon" : "AUTO_RENEW",
 			  "type" : "DIRECT_LINK",
@@ -98,7 +98,7 @@
 			    "messageLook":"WARN",
 			    "icon":"WARNING",
 			    "button":{
-				"id":"direct",
+				"id":"errors",
 				  "display" : "See all errors",
 				  "icon" : "ARROW",
 				  "type" : "DIRECT_LINK",
