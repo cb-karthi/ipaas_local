@@ -11,6 +11,7 @@
                   "display" : "Run Initial Sync",
                   "icon" : "ARROW",
                   "type" : "DIRECT_LINK",
+                  "buttonLook":"FILLED",
                   "request":{
                      "type":"ON_CLICK_GET_CARD",
                      "apiEndPoint":{
