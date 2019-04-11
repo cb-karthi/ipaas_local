@@ -27,7 +27,7 @@
 				    "content":"Invoice in_DkmN3EYCnqoIbn - An internal error occurred",
 				    "button" :{
 					  "id":"ignore1",
-					  "display" : "IGNORE ALL",
+					  "display" : "IGNORE",
 					  "type" : "DIRECT_LINK",
 					   "request":{
 						     "type":"ON_CLICK_GET_CARD",
@@ -49,7 +49,7 @@
 		       },
 		       {
 			  "id":"confirmation",
-			  "display" : "Ignore errors",
+			  "display" : "IGNORE ALL",
 			  "buttonLook":"EMPTY",
 			  "icon" : "CLOSE",
 			  "type" : "POP_UP",
