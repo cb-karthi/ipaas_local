@@ -24,7 +24,7 @@
 		    "heading" : "10 error(s) found",
 		    "listActionContent":[
 			    {
-				    "content":"Invoice in_DkmN3EYCnqoIbn - An internal error occurred",
+				    "content":"Invoice  <a href=\"\" target=\"blank\">in_DkmN3EYCnqoIbn</a> - An internal error occurred",
 				    "button" :{
 					  "id":"ignore1",
 					  "display" : "IGNORE",
@@ -44,7 +44,7 @@
 				       }
 			    },
 			    {
-				    "content":"Invoice in_DkmN3EYCnqoIbn - An internal error occurred",
+				    "content":"Invoice  <a href=\"\" target=\"blank\">in_DkmN3EYCnqoIbn</a> - An internal error occurred",
 				    "button" :{
 					  "id":"ignore2",
 					  "display" : "IGNORE",
