@@ -96,7 +96,9 @@
 			         }
 			      },
 		    {
-			 "type":"MODELBOX_MULTI_CHECKBOX",
+		       "dispName":"Subscription fields",
+			"type":"MODELBOX_MULTI_CHECKBOX",
+		        "id":"modelbox_check1",
 		    	"button":{
 				"id":"select",
 				"display" : "select",
