@@ -94,7 +94,36 @@
 			            "option1":"Checkbox label",
 			            "option2":"Checkbox label"
 			         }
-			      }               
+			      },
+		    {
+			 "type":"MODELBOX_MULTI_CHECKBOX",
+		    	"button":{
+				"id":"select",
+				"display" : "select",
+				"icon" : "ARROW",
+				"buttonLook":"EMPTY",
+				"type" : "POP_UP",
+				"popUp":{  
+				   "inputFields":[  
+				      {  
+					 "type":"CHECKBOX",
+					 "id":"checkbox1",
+					 "desc":"Checkbox label 1"
+				      },
+					{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox2",
+					 "desc":"Checkbox label 2"
+				      }
+				   ],
+				   "title":"Subscription fields",
+				   "submitButton":"Apply",
+				   "cancelButton":"Dismiss",
+				   "type":"INPUT"
+				}
+			    }    
+		    }
+		    
             ]
          },
          "id" : "check4"
