@@ -116,6 +116,7 @@
 					 "desc":"Checkbox label 2"
 				      }
 				   ],
+				  "usecase":"NONE",
 				   "title":"Subscription fields",
 				   "submitButton":"Apply",
 				   "cancelButton":"Dismiss",
