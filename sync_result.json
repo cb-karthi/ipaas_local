@@ -10,7 +10,8 @@
                "Customer id <a href=\"\" target=\"blank\">CB-1234</a> is synced as <a href=\"\" target=\"blank\">AC-123</a> in Active Campaign",
                "Customer id <a href=\"\" target=\"blank\">CB-1234</a> is synced as <a href=\"\" target=\"blank\">AC-123</a> in Active Campaign"
             ],
-            "icon" : "SUCCESS"         
+            "icon" : "SUCCESS",
+            "separatorReq":true
          },
          "id" : "check2",
          "isCardDone":"true"
@@ -25,7 +26,8 @@
                "<a href=\"\" target=\"blank\">Customer #344433</a> - Customer email id is unavailable",
                "<a href=\"\" target=\"blank\">Customer #344435</a> - Customer doesn't have any subscriptions"
             ],
-            "icon" : "ERROR"         
+            "icon" : "ERROR",
+            "separatorReq":true         
          },
          "id" : "check3",
          "isCardDone":"true"
