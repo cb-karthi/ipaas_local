@@ -101,7 +101,7 @@
 				"id":"select",
 				"display" : "select",
 				"icon" : "ARROW",
-				"buttonLook":"EMPTY",
+				"buttonLook":"MUTTED",
 				"type" : "POP_UP",
 				"popUp":{  
 				   "inputFields":[  
