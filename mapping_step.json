@@ -63,70 +63,11 @@
 			         "type":"TOGGLE",
 			         "id":"toggle"
 			      },
-               {  
-			         "dispName":"Subscription fields",
-			         "type":"ACTIONDROPDOWN",
-			         "id":"dropdown3",
-			         "allowedValues":{
-			            "option1":"Checkbox label",
-			            "option2":"Checkbox label",
-			            "option3":"Checkbox label",
-			            "option4":"Checkbox label",
-			            "option5":"Checkbox label",
-			            "option6":"Checkbox label",
-			         }
-			      },               
-               {  
-			         "dispName":"Cubscription fields",
-			         "type":"ACTIONDROPDOWN",
-			         "id":"dropdown4",
-			         "allowedValues":{
-			            "option1":"Checkbox label",
-			            "option2":"Checkbox label",
-			            "option3":"Checkbox label"
-			         }
-			      },               
-               {  
-			         "dispName":"Custom field",
-			         "type":"ACTIONDROPDOWN",
-			         "id":"dropdown5",
-			         "allowedValues":{
-			            "option1":"Checkbox label",
-			            "option2":"Checkbox label"
-			         }
-			      },
 		    {
 		       "dispName":"Subscription fields",
-			"type":"MODELBOX_MULTI_CHECKBOX",
+			"type":"MODELBOX_INPUT_FIELDS",
 		        "id":"modelbox_check1",
-		    	"button":{
-				"id":"select",
-				"display" : "select",
-				"icon" : "PENCIL",
-				"buttonLook":"MUTTED",
-				"type" : "POP_UP",
-				"popUp":{  
-				   "inputFields":[  
-				      {  
-					 "type":"CHECKBOX",
-					 "id":"checkbox1",
-					 "desc":"Checkbox label 1"
-				      },
-					{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox2",
-					 "desc":"Checkbox label 2"
-				      }
-				   ],
-				  "usecase":"NONE",
-				   "title":"Subscription fields",
-				   "submitButton":"Apply",
-				   "cancelButton":"Dismiss",
-				   "type":"INPUT"
-				}
-			    }    
-		    },
-		    {  
+		    	"input_fields":{  
 			         "dispName":"Search",
 			         "type":"SEARCH_CHECK_BOX",
 			         "id":"search",
@@ -143,7 +84,6 @@
 				      }
 			         ]
 			      }
-		    
             ]
          },
          "id" : "check4"
