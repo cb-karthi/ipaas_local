@@ -95,7 +95,8 @@
 			    {  
 				 "type":"CHECKBOX",
 				 "id":"1checkbox1",
-				 "desc":"Checkbox label 1"
+				 "desc":"Checkbox label 1",
+				 "defaultVal":"checked"
 			      },
 				{  
 				 "type":"CHECKBOX",
