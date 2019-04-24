@@ -67,7 +67,7 @@
 		       "dispName":"Subscription fields",
 			"type":"MODELBOX_INPUT_FIELDS",
 		        "id":"modelbox_check1",
-		    	"input_fields":{  
+		    	"inputFields":{  
 			         "dispName":"Search",
 			         "type":"SEARCH_CHECK_BOX",
 			         "id":"search",
