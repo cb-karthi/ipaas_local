@@ -47,7 +47,7 @@
                   "desc":"Applicable if you have enabled gift subscriptions in Chargebee",
 			         "req":"true",
 			         "type":"TOGGLE",
-			         "id":"toggle"
+			         "id":"toggle1"
 			      }
             ]
          },
@@ -61,7 +61,7 @@
 			         "dispName":"Map Custom fields from Chargebee to ActiveCampaign",
 			         "req":"true",
 			         "type":"TOGGLE",
-			         "id":"toggle"
+			         "id":"toggle2"
 			      },
 		    {
 		       "dispName":"Subscription fields",
