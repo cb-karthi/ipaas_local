@@ -86,7 +86,24 @@
 			         ]
 			      }
 			]
-		    }
+		    },
+		    {  
+			 "dispName":"Search",
+			 "type":"SEARCH_CHECK_BOX",
+			 "id":"1search",
+			 "checkbox":[
+			    {  
+				 "type":"CHECKBOX",
+				 "id":"1checkbox1",
+				 "desc":"Checkbox label 1"
+			      },
+				{  
+				 "type":"CHECKBOX",
+				 "id":"1checkbox2",
+				 "desc":"Checkbox label 2"
+			      }
+			 ]
+		      }
             ]
          },
          "id" : "check4"
