@@ -102,7 +102,7 @@
 		    	"button":{
 				"id":"select",
 				"display" : "select",
-				"icon" : "ARROW",
+				"icon" : "PENCIL",
 				"buttonLook":"MUTTED",
 				"type" : "POP_UP",
 				"popUp":{  
@@ -125,7 +125,16 @@
 				   "type":"INPUT"
 				}
 			    }    
-		    }
+		    },
+		    {  
+			         "dispName":"Search",
+			         "type":"SEARCH_CHECK_BOX",
+			         "id":"search",
+			         "allowedValues":[
+			            "Checkbox label1",
+			            "Checkbox label2"
+			         ]
+			      }
 		    
             ]
          },
