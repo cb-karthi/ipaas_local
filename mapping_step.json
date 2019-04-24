@@ -130,9 +130,17 @@
 			         "dispName":"Search",
 			         "type":"SEARCH_CHECK_BOX",
 			         "id":"search",
-			         "allowedValues":[
-			            "Checkbox label1",
-			            "Checkbox label2"
+			         "checkbox":[
+			            {  
+					 "type":"CHECKBOX",
+					 "id":"checkbox1",
+					 "desc":"Checkbox label 1"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox2",
+					 "desc":"Checkbox label 2"
+				      }
 			         ]
 			      }
 		    
