@@ -91,7 +91,7 @@
 			 "dispName":"Search",
 			 "type":"SEARCH_CHECK_BOX",
 			 "id":"1search",
-			 "defaultVal":"{\"1checkbox2\" : \"on\"}",
+			 
 			 "checkbox":[
 			    {  
 				 "type":"CHECKBOX",
