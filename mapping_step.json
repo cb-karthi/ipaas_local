@@ -55,7 +55,7 @@
       },
 		{
          "card": {
-            "type" : "INPUT",
+            "type" : "TOGGLE_HIDE_INPUT",
             "params": [
             	{		  
 			         "dispName":"Map Custom fields from Chargebee to ActiveCampaign",
