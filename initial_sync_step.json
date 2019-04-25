@@ -23,7 +23,7 @@
             ]
          },
          "id" : "check2",
-         "isRetryDone":"false"
+         "showRetry":"false"
       }
   ],
 "proceed":{
