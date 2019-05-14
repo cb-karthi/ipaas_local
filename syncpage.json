@@ -6,7 +6,7 @@
        "processingText": " Syncing All customers and their subscriptions",
        "request": {
          "apiEndPoint": {
-           "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
+           "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_intermediate.json",
             "type": "GET"
          },
          "type": "DOC_READY_GET_CARD"
