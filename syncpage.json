@@ -6,17 +6,8 @@
        "processingText": " Syncing All customers and their subscriptions",
        "request": {
          "apiEndPoint": {
-           "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/sync/run",
-           "headers": {
-             "Elements-Formula-Instance-Id": "377696"
-           },
-           "input": {
-             "apiKey": "test_FdeKa4XuFlZ6ZxikZjIrNLu1VNOkocOq",
-             "siteDomain": "chargebee-labs.com",
-             "siteName": "ipaas-test",
-             "type": "activecampaign"
-           },
-           "type": "GET"
+           "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
+            "type": "GET"
          },
          "type": "DOC_READY_GET_CARD"
        },
@@ -39,14 +30,7 @@
    "id": "unlink",
    "popUp": {
      "apiEndPoint": {
-       "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/unlink",
-       "headers": {
-         "Elements-Formula-Instance-Id": "377707"
-       },
-       "input": {
-         "siteDomain": "chargebee-labs.com",
-         "type": "activecampaign"
-       },
+       "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json",
        "type": "GET"
      },
      "cancelButton": "Dismiss",
