@@ -19,8 +19,6 @@
 	},
 	"syncErrors":[
 		{
-		"cards": [
-			{
 		 	"card": {
 		    	"type" : "ACTION3",
 		    	"heading" : "10 error(s) found",
@@ -96,14 +94,10 @@
 		 },
 		 "id" : "sync_errors",
 		 "isCardDone":"true"
-			}
-		]
 	      }
 	],
 	"overview":[
 		{
-			"cards": [
-				{
 		 "card": {
 		    "type" : "ACTION2",
 		    "heading" : "Last sync done 20 minutes ago",
@@ -145,8 +139,7 @@
 		 },
 		 "id" : "overview",
 		 "isCardDone":"true"
-				}
-		]
+			
 	      }
 	]
 }
