@@ -1,7 +1,7 @@
 {
  "icon": "/third_party/cn-xero.png",
  
- "cards" : [
+ "overview" : [
       {
          "id" : "check2",
          "showRetry":"false",
@@ -18,6 +18,15 @@
          }
       }
    ],
+ "syncErrors": [
+   {
+     "card": {
+       "heading": "  ",
+       "icon": "WARNING",
+       "type": "ACTION"
+     }
+   }
+ ],
  "unlink": {
    "buttonLook": "MUTTED",
    "display": "Unlink Integration",
