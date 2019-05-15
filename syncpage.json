@@ -4,6 +4,7 @@
  "overview": [
    {
      "card": {
+       "id":"check2",
        "processingText": " Syncing All customers and their subscriptions",
        "request": {
          "apiEndPoint": {
@@ -19,6 +20,7 @@
  "syncErrors": [
    {
      "card": {
+      "id":"check2",
        "heading": "  ",
        "icon": "WARNING",
        "type": "ACTION"
