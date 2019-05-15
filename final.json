@@ -19,10 +19,12 @@
 	},
 	"syncErrors":[
 		{
-		 "card": {
-		    "type" : "ACTION3",
-		    "heading" : "10 error(s) found",
-		    "listActionContent":[
+		"cards": [
+			{
+		 	"card": {
+		    	"type" : "ACTION3",
+		    	"heading" : "10 error(s) found",
+		    	"listActionContent":[
 			    {
 				    "content":"Invoice  <a href=\"\" target=\"blank\">in_DkmN3EYCnqoIbn</a> - An internal error occurred",
 				    "button" :{
@@ -94,10 +96,14 @@
 		 },
 		 "id" : "sync_errors",
 		 "isCardDone":"true"
+			}
+		]
 	      }
 	],
 	"overview":[
 		{
+			"cards": [
+				{
 		 "card": {
 		    "type" : "ACTION2",
 		    "heading" : "Last sync done 20 minutes ago",
@@ -139,6 +145,8 @@
 		 },
 		 "id" : "overview",
 		 "isCardDone":"true"
+				}
+		]
 	      }
 	]
 }
