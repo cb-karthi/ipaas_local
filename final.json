@@ -20,6 +20,7 @@
 	"syncErrors":[
 		{
 		 	"card": {
+			"id":"check2",
 		    	"type" : "ACTION3",
 		    	"heading" : "10 error(s) found",
 		    	"listActionContent":[
@@ -99,6 +100,7 @@
 	"overview":[
 		{
 		 "card": {
+		    "id":"check2",
 		    "type" : "ACTION2",
 		    "heading" : "Last sync done 20 minutes ago",
 		    "subHeading":"200 customers and subscriptions synced with ActiveCampaign ",
