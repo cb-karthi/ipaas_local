@@ -1,29 +1,23 @@
 {
  "icon": "/third_party/cn-xero.png",
- "overview": [
-   {
-     "card": {
-       "processingText": " Syncing All customers and their subscriptions",
-       "request": {
-         "apiEndPoint": {
-           "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/final.json",
-            "type": "GET"
-         },
-         "type": "DOC_READY_GET_CARD"
-       },
-       "type": "PROCESSING"
-     }
-   }
- ],
- "syncErrors": [
-   {
-     "card": {
-       "heading": "  ",
-       "icon": "WARNING",
-       "type": "ACTION"
-     }
-   }
- ],
+ 
+ "cards" : [
+      {
+         "id" : "check2",
+         "showRetry":"false",
+         "card": {
+            "type" : "PROCESSING",
+            "processingText": "Syncing All customers and their subscriptions",
+            "request" : {
+               "type":"DOC_READY_GET_CARD",
+               "apiEndPoint":{
+                  "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/final.json",
+                  "type":"GET"
+               }
+            }
+         }
+      }
+   ],
  "unlink": {
    "buttonLook": "MUTTED",
    "display": "Unlink Integration",
