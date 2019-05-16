@@ -34,7 +34,7 @@
             "display" : "Manage sync rules",
             "apiEndPoint": {
                "type":"GET",
-               "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/mapping_step.json"
+               "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/edit_mapping_step.json"
             }
          }
       },
