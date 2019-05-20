@@ -23,7 +23,7 @@
 			"id":"check3",
 		    	"type" : "ACTION3",
 		    	"heading" : "10 error(s) found",
-		    	"listContent": [
+		    	"listActionContent": [
           {
             "button": {
               "display": "IGNORE",
