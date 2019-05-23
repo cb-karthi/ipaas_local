@@ -25,6 +25,8 @@
                 "type": "GET"
               },
               "type": "ON_CLICK_GET_CARD"
+            },
+            "type": "DIRECT_LINK"
           }
         ],
         "heading": "Last sync done 0 Minutes ago ",
