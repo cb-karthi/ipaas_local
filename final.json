@@ -36,21 +36,6 @@
             "display": "See all errors",
             "icon": "ARROW",
             "id": "errors",
-            "request": {
-              "apiEndPoint": {
-                "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/errorlist.json",
-                "headers": {
-                  "Elements-Formula-Instance-Id": "377696"
-                },
-                "input": {
-                  "seeAllErrors": "true",
-                  "siteDomain": "chargebee-labs.com",
-                  "type": "activecampaign"
-                },
-                "type": "GET"
-              },
-              "type": "ON_CLICK_GET_CARD"
-            },
             "type": "DIRECT_LINK"
           },
           "icon": "WARNING",
