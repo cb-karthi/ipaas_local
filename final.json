@@ -36,7 +36,7 @@
             "display": "See all errors",
             "icon": "ARROW",
             "id": "errors",
-            "type": "DIRECT_LINK"
+            "type": "TAB_CHANGE"
           },
           "icon": "WARNING",
           "message": "2 customers and subscriptions could not be synced to ActiveCampaign",
