@@ -24,6 +24,26 @@
 					     }
 					  }
 				       }
-			    }
+			    },
+{
+            "button": {
+              "display": "IGNORE",
+              "id": "ignore2",
+              "popUp": {
+                "apiEndPoint": {
+                  "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/ignore_error.json",
+                  "type": "GET"
+                },
+                "cancelButton": "Dismiss",
+                "description": "Once this error is ignored, this record will not be synced to ActiveCampaign.",
+                "submitButton": "Yes, go ahead",
+                "title": "Are you sure you want to ignore?",
+                "type": "SIMPLE",
+                "usecase": "DANGER"
+              },
+              "type": "POP_UP"
+            },
+            "content": "Invoice  <a href=\"\" target=\"blank\">in_DkmN3EYCnqoIbn</a> - An internal error occurred"
+          }
 		    ]
 }
