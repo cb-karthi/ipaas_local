@@ -5,7 +5,7 @@
       "card": {
             "type" : "ACTION2",
             "heading" : "You've ignored errors found during Sync.",
-            "icon" : "WARNING"
+            "icon" : "WARNING",
           "buttons": [
           {
             "buttonLook": "EMPTY",
