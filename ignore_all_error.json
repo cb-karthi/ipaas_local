@@ -43,7 +43,7 @@
       "card": {
             "type" : "ACTION",
             "heading" : "You've ignored errors found during Sync.",
-            "icon" : "WARNING",
+            "icon" : "WARNING"
          },
       "id": "sync_errors",
       "isCardDone": "false"
