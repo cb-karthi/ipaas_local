@@ -3,7 +3,10 @@
   "overview": [
     {
       "card": {
-        "buttons": [
+            "type" : "ACTION2",
+            "heading" : "You've ignored errors found during Sync.",
+            "icon" : "WARNING"
+          "buttons": [
           {
             "buttonLook": "EMPTY",
             "display": "Sync now",
@@ -28,12 +31,8 @@
             },
             "type": "DIRECT_LINK"
           }
-        ],
-        "heading": "Last sync done 0 Minutes ago ",
-        "id": "check2",
-        "subHeading": "5  customers and subscriptions synced with ActiveCampaign",
-        "type": "ACTION2"
-      },
+        ]
+         },
       "id": "overview",
       "isCardDone": "true"
     }
