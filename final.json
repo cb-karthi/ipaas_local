@@ -24,7 +24,7 @@
                 },
                 "type": "GET"
               },
-              "type": "ON_CLICK_DEFAULT_ACTION"
+              "type": "ON_CLICK_GET_CARD"
             },
             "type": "DIRECT_LINK"
           }
