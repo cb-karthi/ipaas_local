@@ -4,7 +4,8 @@
     {
       "card": {
             "type" : "ACTION2",
-            "heading" : "You've ignored errors found during Sync.",
+            "heading" : "Last sync done 0 Minutes ago ",
+        "subHeading": "5  customers and subscriptions synced with ActiveCampaign",
             "icon" : "WARNING",
           "buttons": [
           {
