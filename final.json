@@ -38,7 +38,7 @@
             "id": "errors",
             "request": {
               "apiEndPoint": {
-                "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/sync/run",
+                "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/errorlist.json",
                 "headers": {
                   "Elements-Formula-Instance-Id": "377696"
                 },
@@ -82,7 +82,7 @@
             "id": "confirmation",
             "popUp": {
               "apiEndPoint": {
-                "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/sync/run",
+                "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/final_updated_card.json",
                 "headers": {
                   "Elements-Formula-Instance-Id": "377696"
                 },
