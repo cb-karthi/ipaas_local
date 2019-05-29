@@ -47,7 +47,7 @@
                   "desc":"Applicable if you have enabled gift subscriptions in Chargebee",
 			         "req":"true",
 			         "type":"TOGGLE",
-			         "id":"toggle1"
+			         "id":"toggle1",
 				 "defaultVal":"true"
 			      }
             ]
@@ -67,7 +67,7 @@
 			         "dispName":"Map Custom fields from Chargebee to ActiveCampaign",
 			         "req":"true",
 			         "type":"TOGGLE",
-			         "id":"toggle2"
+			         "id":"toggle2",
 			         "defaultVal":"true"
 			      },
 		    {
@@ -82,7 +82,7 @@
 			            {  
 					 "type":"CHECKBOX",
 					 "id":"checkbox1",
-					 "desc":"Checkbox label 1"
+					 "desc":"Checkbox label 1",
 					 "defaultVal":"on"
 				      },
 				 	{  
@@ -106,7 +106,7 @@
 			            {  
 					 "type":"CHECKBOX",
 					 "id":"checkbox3",
-					 "desc":"Checkbox label 1"
+					 "desc":"Checkbox label 1",
 					 "defaultVal":"on"
 				      },
 				 	{  
