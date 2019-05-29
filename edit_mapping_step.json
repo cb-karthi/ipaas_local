@@ -48,6 +48,7 @@
 			         "req":"true",
 			         "type":"TOGGLE",
 			         "id":"toggle1"
+				 "defaultVal":"true"
 			      }
             ]
          },
@@ -67,6 +68,7 @@
 			         "req":"true",
 			         "type":"TOGGLE",
 			         "id":"toggle2"
+			         "defaultVal":"true"
 			      },
 		    {
 		       "dispName":"Subscription fields",
@@ -81,6 +83,7 @@
 					 "type":"CHECKBOX",
 					 "id":"checkbox1",
 					 "desc":"Checkbox label 1"
+					 "defaultVal":"on"
 				      },
 				 	{  
 					 "type":"CHECKBOX",
@@ -104,6 +107,7 @@
 					 "type":"CHECKBOX",
 					 "id":"checkbox3",
 					 "desc":"Checkbox label 1"
+					 "defaultVal":"on"
 				      },
 				 	{  
 					 "type":"CHECKBOX",
