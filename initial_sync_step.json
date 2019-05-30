@@ -32,7 +32,7 @@
        "type": "ACTION"
      },
      "id": "check2",
-     "showretry": "false"
+     "showRetry": "false"
    }
  ],
  "proceed": {
