@@ -1,90 +1,68 @@
 {
- "cards": [
-   {
-     "card": {
-       "buttons": [
-         {
-           "buttonLook": "FILLED",
-           "display": "Run Initial Sync",
-           "icon": "ARROW",
-           "id": "direct",
-           "request": {
-             "apiEndPoint": {
-               "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/initialsync/run",
-               "headers": {
-                 "Elements-Formula-Instance-Id": "377075"
-               },
-               "input": {
-                 "action": "click",
-                 "initialSync": "true",
-                 "siteDomain": "chargebee-labs.com",
-                 "type": "activecampaign"
-               },
-               "type": "GET"
-             },
-             "type": "ON_CLICK_GET_CARD"
-           },
-           "type": "DIRECT_LINK"
+   "cards" : [
+      {
+         "card": {
+            "type" : "ACTION",
+            "heading" : "We'll run an Initial sync",
+            "subHeading" : "We'll sync your first 10 customers and their subscriptions to ActiveCampaign. After initial sync, we recommend that you verify the data synced to Active Campaign.",
+            "buttons" :[
+               {
+                  "id":"direct",
+                  "display" : "Run Initial Sync",
+                  "icon" : "ARROW",
+                  "type" : "DIRECT_LINK",
+                  "buttonLook":"FILLED",
+                  "request":{
+                     "type":"ON_CLICK_GET_CARD",
+                     "apiEndPoint":{
+                        "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_process.json",
+                        "type":"GET"
+                     }
+                  }
+               }
+            ]
+         },
+         "id" : "check2",
+         "showRetry":"false"
+      }
+  ],
+"proceed":{
+      "id":"proceed",
+      "display" : "Sync all records",
+      "icon" : "ARROW",
+      "type" : "POP_UP",
+      "popUp":{
+         "type":"SIMPLE",
+         "title":"Are you sure you want to ignore the errors and sync all records?",
+         "usecase":"DANGER",
+         "submitButton":"Yes, go ahead",
+         "cancelButton":"Dismiss",
+         "description":"All your customer and subscription data will be synced with Active Campaign. You can fix the errors, if any, sync the data again, later.",
+         "apiEndPoint":{
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json",
+            "type":"GET"
          }
-       ],
-       "heading": "We'll run an Initial sync",
-       "subHeading": "We'll sync your first 10 customers and their subscriptions to ActiveCampaign. After initial sync, we recommend that you verify the data synced to Active Campaign.",
-       "type": "ACTION"
-     },
-     "id": "check2",
-     "showRetry": "false"
-   }
- ],
- "proceed": {
-   "display": "Sync all records",
-   "icon": "ARROW",
-   "id": "proceed",
-   "popUp": {
-     "apiEndPoint": {
-       "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/processing-card",
-       "headers": {
-         "Elements-Formula-Instance-Id": "386930"
-       },
-       "input": {
-         "apiKey": "test_FdeKa4XuFlZ6ZxikZjIrNLu1VNOkocOq",
-         "siteDomain": "chargebee-labs.com",
-         "siteName": "ipaas-test",
-         "syncNow": "syncNow",
-         "type": "activecampaign"
-       },
-       "type": "GET"
-     },
-     "cancelButton": "Dismiss",
-     "description": "All your customer and subscription data will be synced with Active Campaign. You can fix the errors, if any, sync the data again, later.",
-     "submitButton": "Yes, go ahead",
-     "title": "Are you sure you want to ignore the errors and sync all records?",
-     "type": "SIMPLE",
-     "usecase": "DANGER"
-   },
-   "type": "POP_UP"
- },
- "retry": {
-   "buttonLook": "FILLED",
-   "display": "Retry initial sync",
-   "icon": "ARROW",
-   "id": "retry",
-   "request": {
-     "apiEndPoint": {
-       "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/initialsync/run",
-       "headers": {
-         "Elements-Formula-Instance-Id": "377075"
-       },
-       "input": {
-         "action": "click",
-         "initialSync": "true",
-         "retry": "true",
-         "siteDomain": "chargebee-labs.com",
-         "type": "activecampaign"
-       },
-       "type": "GET"
-     },
-     "type": "ON_CLICK_DEFAULT_ACTION"
-   },
-   "type": "DIRECT_LINK"
- }
+      }
+},
+"retry":{
+      "id":"retry",
+      "display" : "Retry initial sync",
+      "icon" : "ARROW",
+      "buttonLook":"FILLED",
+      "type" : "DIRECT_LINK",
+      "request":{
+         "type":"ON_CLICK_DEFAULT_ACTION",
+         "apiEndPoint":{
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json",
+            "type":"GET",
+            "headers":{
+               "Authorization":"sfsfsdffadssd",
+               "Elements-Formula-Instance-Id":"sfsfsdafsd"
+            },
+            "input":{
+               "id":"chargebee"
+            }
+         }
+      }
+    }
 }
