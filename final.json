@@ -34,10 +34,10 @@
          "message": {
            
            "button": {
-            "display": "See all errors",
+            "display": "Resolve",
             "icon": "ARROW",
-            "id": "errors",
-            "type": "TAB_CHANGE"
+            "id": "resolve",
+            "type": "EDIT_STEP"
           },
           "icon": "WARNING",
           "message": "2 customers and subscriptions could not be synced to ActiveCampaign",
