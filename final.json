@@ -31,6 +31,7 @@
         ],
         "heading": "Last sync done 0 Minutes ago ",
         "id": "check2",
+         "message": {
           "editConfig":{
             "stepId":"step_2",
             "display" : "Resolve",
