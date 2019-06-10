@@ -31,13 +31,6 @@
         ],
         "heading": "Last sync done 0 Minutes ago ",
         "id": "check2",
-        "message": {
-          "button": {
-            "display": "See all errors",
-            "icon": "ARROW",
-            "id": "errors",
-            "type": "TAB_CHANGE"
-          },
           "editConfig":{
             "stepId":"step_2",
             "display" : "Resolve",
