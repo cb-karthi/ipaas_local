@@ -37,7 +37,15 @@
             "display": "Resolve",
             "icon": "ARROW",
             "id": "resolve",
-            "type": "EDIT_STEP"
+            "type": "EDIT_STEP",
+             "editConfig":{
+            "integration":"activecampaign"
+            "stepId":"step_2"
+            "apiEndPoint": {
+               "type":"GET",
+               "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/edit_mapping_step.json"
+            }
+            }
           },
           "icon": "WARNING",
           "message": "2 customers and subscriptions could not be synced to ActiveCampaign",
