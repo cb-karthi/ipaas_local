@@ -366,6 +366,36 @@
                     "desc": "BillingAddress Zip",
                     "id": "billing_address_zipfefefefe",
                     "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Statedfasd",
+                    "id": "bs",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.StateCodevsvs",
+                    "id": "bscode",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zipsdf",
+                    "id": "bz",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zipfedfdbdsb",
+                    "id": "bzip",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Ziptest",
+                    "id": "bzipee",
+                    "type": "CHECKBOX"
                   }
                 ],
                 "id": "search2",
