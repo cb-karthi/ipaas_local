@@ -366,6 +366,12 @@
                     "desc": "BillingAddress Zip",
                     "id": "billing_address_zipfefefefe",
                     "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field",
+                    "id": "field_zipfefefefe",
+                    "type": "CHECKBOX"
                   }
                 ],
                 "id": "search2",
