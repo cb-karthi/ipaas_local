@@ -1,233 +1,383 @@
 {
-   "cards" : [
-      {
-         "card": {
-            "type" : "INPUT",
-            "params": [
-            	{  
-			         "dispName":"Choose the ActiveCampaign list to sync customer and subscription data with ",
-			         "req":"true",
-			         "type":"DROPDOWN",
-			         "id":"dropdown1",
-			         "allowedValues":{
-			            "option1":"My List 2",
-			            "option2":"My List 3"
-			         }
-			      }
-            ]
-         },
-         "id" : "check1"
-      },
-		{
-         "card": {
-            "type" : "INPUT",
-            "params": [
-            	{  
-			         "dispName":"Choose what happens when a customer is deleted in Chargebee",
-                  "desc":"You can choose to remove the customer from ActiveCampaign or mark them as 'Deleted'.",
-			         "req":"true",
-			         "type":"DROPDOWN",
-			         "id":"dropdown2",
-			         "allowedValues":{
-			            "option1":"Mark as Deleted",
-			            "option2":"Remove Customer"
-			         },
-		         	"defaultVal":"option2"
-		      	}
-            ]
-         },
-         "id" : "check2"
-      },
-		{
-         "card": {
-            "type" : "INPUT",
-            "params": [
-            	{		  
-			         "dispName":"Sync Customers who have gifted subscriptions",
-                  "desc":"Applicable if you have enabled gift subscriptions in Chargebee",
-			         "req":"true",
-			         "type":"TOGGLE",
-			         "id":"toggle1"
-			      }
-            ]
-         },
-         "id" : "check3"
-      },
-		{
-         "card": {
-            "type" : "TOGGLE_HIDE_INPUT",
-	   "message":{
-	      "message":"We have already mapped your customer and subscription fields from Chargebee to ActiveCampaign. You can map the custom fields you had created in Chargebee, by enabling this configuration",
-	      "icon":"DANGER_INFO",
-	      "messageLook":"DANGER"
-	    },
-            "params": [
-            	{		  
-			         "dispName":"Map Custom fields from Chargebee to ActiveCampaign",
-			         "req":"true",
-			         "type":"TOGGLE",
-			         "id":"toggle2"
-			      },
-		    {
-		       "dispName":"Subscription fields",
-			"type":"MODELBOX_INPUT_FIELDS",
-		        "id":"modelbox_check1",
-		    	"inputFields":[
-				{  
-			         "type":"SEARCH_CHECK_BOX",
-			         "id":"search",
-			         "checkboxes":[
-			            {  
-					 "type":"CHECKBOX",
-					 "id":"checkbox1",
-					 "desc":"Checkbox label 1"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox2",
-					 "desc":"Checkbox label 2"
-				      }
-			         ]
-			      }
-			]
-		    },
-		    {
-		       "dispName":"Customer fields",
-			"type":"MODELBOX_INPUT_FIELDS",
-		        "id":"modelbox_check2",
-		    	"inputFields":[
-				{  
-			         "type":"SEARCH_CHECK_BOX",
-			         "id":"search2",
-			         "checkboxes":[
-			            {  
-					 "type":"CHECKBOX",
-					 "id":"checkbox3",
-					 "desc":"Checkbox label 1"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox4",
-					 "desc":"Checkbox label 2"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox5",
-					 "desc":"Checkbox label 3"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox6",
-					 "desc":"Checkbox label 4"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox7",
-					 "desc":"Checkbox label 5"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox8",
-					 "desc":"Checkbox label 6"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox9",
-					 "desc":"Checkbox label 7"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox10",
-					 "desc":"Checkbox label 8"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox11",
-					 "desc":"Checkbox label 9"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox12",
-					 "desc":"Checkbox label 10"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox12",
-					 "desc":"Checkbox label 11"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox14",
-					 "desc":"Checkbox label 12"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox15",
-					 "desc":"Checkbox label 13"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox16",
-					 "desc":"Checkbox label 14"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox17",
-					 "desc":"Checkbox label 15"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox18",
-					 "desc":"Checkbox label 16"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox19",
-					 "desc":"Checkbox label 17"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox20",
-					 "desc":"Checkbox label 18"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox21",
-					 "desc":"Checkbox label 19"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox22",
-					 "desc":"Checkbox label 20"
-				      }
-			         ]
-			      }
-			]
-		    }
-            ]
-         },
-         "id" : "check4"
-      }
-    ],
-   "proceed":{
-      "id":"proceed",
-      "display" : "Proceed",
-      "icon" : "ARROW",
-      "buttonLook":"FILLED",
-      "type" : "DIRECT_LINK",
-      "request":{
-         "type":"ON_CLICK_SEND_INPUT",
-         "apiEndPoint":{
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json",
-            "type":"GET",
-            "headers":{
-               "Authorization":"sfsfsdffadssd",
-               "Elements-Formula-Instance-Id":"sfsfsdafsd"
+  "cards": [
+    {
+      "card": {
+        "params": [
+          {
+            "allowedValues": {
+              "17": "Contacts"
             },
-            "input":{
-               "id":"chargebee"
-            }
-         }
-      }
+            "defaultVal": 17,
+            "dispName": "Choose the ActiveCampaign list to sync customer and subscription data with ",
+            "id": "list",
+            "req": "true",
+            "type": "DROPDOWN"
+          }
+        ],
+        "type": "INPUT"
+      },
+      "id": "check2"
+    },
+    {
+      "card": {
+        "params": [
+          {
+            "allowedValues": {
+              "option1": "Mark as Deleted",
+              "option2": "Remove Customer"
+            },
+            "defaultVal": "option1",
+            "desc": "You can choose to remove the customer from ActiveCampaign or mark them as 'Deleted'.",
+            "dispName": "Choose what happens when a customer is deleted in Chargebee",
+            "id": "deleteops",
+            "req": "true",
+            "type": "DROPDOWN"
+          }
+        ],
+        "type": "INPUT"
+      },
+      "id": "check2"
+    },
+    {
+      "card": {
+        "params": [
+          {
+            "desc": "Applicable if you have enabled gift subscriptions in Chargebee",
+            "dispName": "Sync Customers who have gifted subscriptions",
+            "id": "syncGift",
+            "req": "true",
+            "type": "TOGGLE"
+          }
+        ],
+        "type": "INPUT"
+      },
+      "id": "check3"
+    },
+    {
+      "card": {
+        "message": {
+          "message": "We have already mapped your customer and subscription fields from Chargebee to ActiveCampaign. You can map the custom fields you had created in Chargebee, by enabling this configuration"
+        },
+        "params": [
+          {
+            "defaultVal": "true",
+            "dispName": "Map Custom fields from Chargebee to ActiveCampaign",
+            "id": "toggle2",
+            "req": "true",
+            "type": "TOGGLE"
+          },
+          {
+            "dispName": "Subscription fields",
+            "id": "modelbox_check1",
+            "inputFields": [
+              {
+                "checkboxes": [
+                  {
+                    "defaultVal": "off",
+                    "desc": "Billing Period",
+                    "id": "billing_period",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Plan Free Quantity",
+                    "id": "plan_free_quantity",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Has Scheduled Changes",
+                    "id": "has_scheduled_changes",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Due Invoices Count",
+                    "id": "due_invoices_count",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Plan Quantity",
+                    "id": "plan_quantity",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Resource Version",
+                    "id": "resource_version",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Plan Unit Price",
+                    "id": "plan_unit_price",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Customer Id",
+                    "id": "customer_id",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Auto Collection",
+                    "id": "auto_collection",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Billing Period Unit",
+                    "id": "billing_period_unit",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "current Term End",
+                    "id": "current_term_end",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Current Term Start",
+                    "id": "current_term_start",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Subscription Deleted",
+                    "id": "deleted",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Due Since",
+                    "id": "due_since",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Object",
+                    "id": "object",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Total Dues",
+                    "id": "total_dues",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "subscription sample",
+                    "id": "cf_subscription_sample",
+                    "type": "CHECKBOX"
+                  }
+                ],
+                "id": "search",
+                "type": "SEARCH_CHECK_BOX"
+              }
+            ],
+            "type": "MODELBOX_INPUT_FIELDS"
+          },
+          {
+            "dispName": "Customer fields",
+            "id": "modelbox_check2",
+            "inputFields": [
+              {
+                "checkboxes": [
+                  {
+                    "defaultVal": "off",
+                    "desc": "Allow Direct Debit",
+                    "id": "allow_direct_debit",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Auto Collection",
+                    "id": "auto_collection",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Card Status",
+                    "id": "card_status",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "created On",
+                    "id": "created_on",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Email",
+                    "id": "email",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Excess Payments",
+                    "id": "excess_payments",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Customer Id",
+                    "id": "id",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Locale",
+                    "id": "locale",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Net Term Days",
+                    "id": "net_term_days",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Object",
+                    "id": "object",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Deleted",
+                    "id": "deleted",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Pii Cleared",
+                    "id": "pii_cleared",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Preferred Currency Code",
+                    "id": "preferred_currency_code",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Promotional Credits",
+                    "id": "promotional_credits",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Refundable Credits",
+                    "id": "refundable_credits",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Resource Version",
+                    "id": "resource_version",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Taxability",
+                    "id": "taxability",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Unbilled Charges",
+                    "id": "unbilled_charges",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Updated On",
+                    "id": "updated_at",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.City",
+                    "id": "billing_address_city",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Country",
+                    "id": "billing_address_country",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.FirstName",
+                    "id": "billing_address_first_name",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.LastName",
+                    "id": "billing_address_last_name",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Line1",
+                    "id": "billing_address_line1",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Object",
+                    "id": "billing_address_object",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.State",
+                    "id": "billing_address_state",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.StateCode",
+                    "id": "billing_address_state_code",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zip",
+                    "id": "billing_address_zip",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zipfed",
+                    "id": "billing_address_zipefef11",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zip",
+                    "id": "billing_address_zipfefefefe",
+                    "type": "CHECKBOX"
+                  }
+                ],
+                "id": "search2",
+                "type": "SEARCH_CHECK_BOX"
+              }
+            ],
+            "type": "MODELBOX_INPUT_FIELDS"
+          }
+        ],
+        "type": "TOGGLE_HIDE_INPUT"
+      },
+      "id": "check4"
     }
+  ]
 }
