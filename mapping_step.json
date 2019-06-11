@@ -372,6 +372,12 @@
                     "desc": "Field",
                     "id": "field_zipfefefefe",
                     "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field2",
+                    "id": "field_2",
+                    "type": "CHECKBOX"
                   }
                 ],
                 "id": "search2",
