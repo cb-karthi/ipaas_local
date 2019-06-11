@@ -375,8 +375,8 @@
                   },
                   {
                     "defaultVal": "off",
-                    "desc": "Field2",
-                    "id": "field_2",
+                    "desc": "Field11",
+                    "id": "field_test",
                     "type": "CHECKBOX"
                   }
                 ],
