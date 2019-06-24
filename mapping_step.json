@@ -378,6 +378,187 @@
                     "desc": "Field11",
                     "id": "field_test",
                     "type": "CHECKBOX"
+                  },
+                
+                  {
+                    "defaultVal": "off",
+                    "desc": "Customer Id",
+                    "id": "id",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Locale",
+                    "id": "locale",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Net Term Days",
+                    "id": "net_term_days",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Object",
+                    "id": "object",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Deleted",
+                    "id": "deleted",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Pii Cleared",
+                    "id": "pii_cleared",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Preferred Currency Code",
+                    "id": "preferred_currency_code",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Promotional Credits",
+                    "id": "promotional_credits",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Refundable Credits",
+                    "id": "refundable_credits",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Resource Version",
+                    "id": "resource_version",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Taxability",
+                    "id": "taxability",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Unbilled Charges",
+                    "id": "unbilled_charges",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Updated On",
+                    "id": "updated_at",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.City",
+                    "id": "billing_address_city",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Country",
+                    "id": "billing_address_country",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.FirstName",
+                    "id": "billing_address_first_name",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.LastName",
+                    "id": "billing_address_last_name",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Line1",
+                    "id": "billing_address_line1",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.Object",
+                    "id": "billing_address_object",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.State",
+                    "id": "billing_address_state",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress.StateCode",
+                    "id": "billing_address_state_code",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zip",
+                    "id": "billing_address_zip",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zipfed",
+                    "id": "billing_address_zipefef11",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "BillingAddress Zip",
+                    "id": "billing_address_zipfefefefe",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field",
+                    "id": "field_zipfefefefe",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field11",
+                    "id": "field_test",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field",
+                    "id": "field_zipfefefefe",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field11",
+                    "id": "field_test",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field",
+                    "id": "field_zipfefefefe",
+                    "type": "CHECKBOX"
+                  },
+                  {
+                    "defaultVal": "off",
+                    "desc": "Field11",
+                    "id": "field_test",
+                    "type": "CHECKBOX"
                   }
                 ],
                 "id": "search2",
