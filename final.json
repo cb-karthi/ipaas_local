@@ -58,8 +58,8 @@
             "display": "Download CSV",
             "icon": "CLOUD_DOWNLOAD",
             "id": "download",
-            "type": "DIRECT_LINK",
-            "url": "https://cb-xero-migration-dev.s3.amazonaws.com/ipaas/ipaas-test/15ojLXRR18omY1M/activecampaign_ipaas-test_20-May-2019%2018%3A57.csv?response-content-disposition=attachment%3Bfilename%3Dactivecampaign_ipaas-test_20-May-2019%2018%3A57.csv&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEG4aCXVzLWVhc3QtMSJHMEUCIQDo9PTk2KrsFlnYfmQnuwpurzhuRIVn4hxKE9LT8xCZ%2BAIgApHp%2Bai0Ni%2Fu8wET%2F5H%2FSceStRLDxFNvMy02sAAFAOsq2gMIdhAAGgw4MTcxODIyNDMzMjEiDOtMOSldRewVxAE6Lyq3A2Sfjm8JvjZzQ2DFcLwu%2FVSur5dYRoLS7YLS0h6xCe4tKKihS%2FfOU8MqVTUg61WA9%2Fu7fLTjdfxLrvconpIKEdbA37boejCwYi6y6%2ByKuCCXXc6Zclhr0ndb2mX49pSXh7gnUx%2BaZnGfOJu%2BkPreCcEehggv8p5%2F3m%2BjN4Y7dPw6kBljjFWFphath6Utca9JJpE0158Ce2%2BCj%2BpFKd4TuOZbL6dpKadtlzhNq%2FY%2BrSvWga1QUNv1wqPvF9x5Zs5J04222itajmoQUW4nL12kWycrpOIENzZd5ltbe5%2BMJA6Trah7t3c1%2BYI9gbgQUnYnovrnKoNG9hdJYQsQExJ%2FqhEQwX5cYFpz4DovyfgxYgXTL%2B9oXvbn9Fv4g9dIbbby%2FHFxOQH6LTTAAnk3PmM5Sujxo8Gs6z2MKPx%2BnrRhL1LM0AwEcGOtB%2BtOB%2BxKJ4yXjgLX0hPCiCPNMH2121nhEYC6%2BXJImwkFb6tV5%2B1BDAZ9um5E30MfQDjrZbhOpIUAu1jJxKDu07CnbGbH376TSp%2BO0tIWpchUExOGhrZTWRyUeBixdzromj%2BEDF7ieYA%2Fh7nSjPuKFjww%2BdKK5wU6tAH8%2BYX7d%2Bq9wpS0P3oNlxOwgbGbqQg1kMpGzC%2Bh3rJ2Y1XqwDC71GLcIpMTmVh%2FwZCCFs0s%2FxZz29gLY8ThaA2Ffrw9AnXxtRVYXS5O%2FP47cySPphRJmgKtICMWcPI%2FMtsTTjTLOYsjAGz6iF%2FVJ2uati8nvcrfY6dNIxSY%2FkGsj3fCcU357oAtZxk1M%2FE5BTxPQkWL6tj5f7oJUf%2FmYSJJbb13K66rb28HI2zM2J3j9iXc%2FMY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190520T132705Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=ASIA34Q63PH4QMOHUTP3%2F20190520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=739301ef8751a8f64c7b4c46efda9ce8a5d05d26707c74eaebeee0ff44d26f02"
+            "fileId": "67000000000",
+            "type": "DOWNLOAD_FILE"
           },
           {
             "buttonLook": "EMPTY",
