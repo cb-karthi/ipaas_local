@@ -38,7 +38,7 @@
             "icon": "ARROW",
             "id": "errors",
             "type": "POP_UP",
-	     "requestType":"authexpiry"
+	     "requestType":"authexpiry",
              "popUp":{  
 	   "inputFields":[  
 	      {  
