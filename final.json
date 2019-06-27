@@ -34,7 +34,7 @@
          "message": {
            
            "button": {
-            "display": "Resolve",
+            "display": "See All Errors",
             "icon": "ARROW",
             "id": "errors",
             "type": "POP_UP",
