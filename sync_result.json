@@ -14,7 +14,7 @@
             "separatorReq":true
          },
          "id" : "check2",
-         "isCardDone":"true"
+         
       },
       {
          "card": {
@@ -30,7 +30,7 @@
             "separatorReq":true         
          },
          "id" : "check3",
-         "isCardDone":"true"
+        
       }
    ]
 }
