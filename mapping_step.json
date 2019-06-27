@@ -199,6 +199,106 @@
 					 "type":"CHECKBOX",
 					 "id":"checkbox22",
 					 "desc":"Checkbox label 20"
+				      },
+					 {  
+					 "type":"CHECKBOX",
+					 "id":"checkbox23",
+					 "desc":"Checkbox label 21"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox24",
+					 "desc":"Checkbox label 22"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox25",
+					 "desc":"Checkbox label 23"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox26",
+					 "desc":"Checkbox label 24"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox27",
+					 "desc":"Checkbox label 25"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox28",
+					 "desc":"Checkbox label 26"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox29",
+					 "desc":"Checkbox label 27"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox30",
+					 "desc":"Checkbox label 28"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox31",
+					 "desc":"Checkbox label 29"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox32",
+					 "desc":"Checkbox label 30"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox33",
+					 "desc":"Checkbox label 31"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox34",
+					 "desc":"Checkbox label 32"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox35",
+					 "desc":"Checkbox label 13"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox36",
+					 "desc":"Checkbox label 34"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox37",
+					 "desc":"Checkbox label 35"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox38",
+					 "desc":"Checkbox label 36"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox39",
+					 "desc":"Checkbox label 37"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox40",
+					 "desc":"Checkbox label 38"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox41",
+					 "desc":"Checkbox label 39"
+				      },
+				 	{  
+					 "type":"CHECKBOX",
+					 "id":"checkbox42",
+					 "desc":"Checkbox label 40"
 				      }
 			         ]
 			      }
