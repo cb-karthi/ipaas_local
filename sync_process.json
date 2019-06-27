@@ -13,6 +13,7 @@
             }
          },
          "id" : "check2",
+         "showRetry":"false"
       } 
    ]
 }
