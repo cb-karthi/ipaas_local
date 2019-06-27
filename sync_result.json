@@ -14,7 +14,8 @@
             "separatorReq":true
          },
          "id" : "check2",
-          "isCardDone":"true"
+          "isCardDone":"true",
+         "showRetry":"true"
          
       },
       {
@@ -31,7 +32,8 @@
             "separatorReq":true         
          },
          "id" : "check3",
-          "isCardDone":"true"
+          "isCardDone":"true",
+         "showRetry":"true"
         
       }
    ]
