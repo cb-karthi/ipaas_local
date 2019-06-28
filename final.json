@@ -37,7 +37,7 @@
             "display": "See All Errors",
             "icon": "ARROW",
             "id": "errors",
-            "type": "POP_UP",
+            "type": "DIRECT_LINK",
 	     "newTab":"true"       
           },
           "icon": "WARNING",
