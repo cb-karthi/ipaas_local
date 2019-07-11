@@ -104,7 +104,7 @@
             "display": "Download CSV",
             "icon": "CLOUD_DOWNLOAD",
             "id": "download",
-            "fileId": "67000000003",
+            "fileId": "67000000000",
             "type": "DOWNLOAD_FILE"
           },
           {
