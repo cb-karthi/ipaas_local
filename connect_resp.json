@@ -1,3 +1,4 @@
 {
-  "notice":"Cannot Unlink, sync in progress"
+  "notice":"Cannot Unlink, sync in progress",
+  "status":"error"
 }
