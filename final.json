@@ -186,14 +186,7 @@
     "id": "unlink",
     "popUp": {
       "apiEndPoint": {
-        "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/unlink",
-        "headers": {
-          "Elements-Formula-Instance-Id": "377707"
-        },
-        "input": {
-          "siteDomain": "chargebee-labs.com",
-          "type": "activecampaign"
-        },
+        "apiUrl": "https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/syncinprogress.json",
         "type": "GET"
       },
       "cancelButton": "Dismiss",
